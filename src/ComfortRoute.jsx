@@ -5,9 +5,7 @@
 // ============================================================
 
 const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
-const IS_DEMO = !GOOGLE_API_KEY || GOOGLE_API_KEY === "AIzaSyDe5992O6m0qL-GzszH6TdQV97d6OXksMc";
-
-console.log("KEY CHECK:", GOOGLE_API_KEY ? "Key loaded ✓" : "Key MISSING ✗");
+const IS_DEMO = !GOOGLE_API_KEY || GOOGLE_API_KEY === "PASTE_YOUR_GOOGLE_API_KEY_HERE";
 
 import { useState, useEffect, useCallback } from "react";
 
